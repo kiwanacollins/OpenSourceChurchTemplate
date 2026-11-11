@@ -43,7 +43,7 @@ export const locationConfig: LocationConfig = {
   },
   location: {
     address: "Entebbe – Magala, Uganda",
-    mapEmbedUrl: "",
+    mapEmbedUrl: "https://maps.google.com/maps?q=Entebbe+Uganda&t=&z=13&ie=UTF8&iwloc=&output=embed",
     direction: "https://www.google.com/maps/search/?api=1&query=Shalom+Gates+of+Praise+Ministries+Entebbe+Uganda"
   },
   serviceTimes: [
