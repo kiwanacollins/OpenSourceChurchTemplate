@@ -14,14 +14,14 @@ interface Value {
 
 export const aboutConfig = {
   hero: {
-    title: "About Revival Center Church",
+    title: "About Shalom Gates of Praise Ministries",
     subtitle:
-      "We are a church that believes in Jesus & loves God and people. We are a multi-cultural and multi-generational church committed to reaching the city of Woodbury and Beyond. We exist to help you and your family grow closer to your God-given purpose. Everyone has a first step to take in their journey. Will you take your first step this Sunday?",
+      "We are a community of believers sent on a whole mission, in the whole world, beginning with our very own community in Entebbe – Magala.",
   },
   story: {
-    title: "Meet Our Pastors",
+    title: "Our Leadership",
     content:
-      "David and Neelu are the Founding Pastors of Revival Center Minnesota Church. Both came from Hindu families in South India. Soon after their encounter with the Living God Jesus Christ, God called them into full-time ministry. Together, they have served in church and ministry, for around 20 years, and 18 years ago God called David to be a missionary to the USA. After their marriage, both traveled to different parts of the USA ministering to ethnic churches like Russians/Ukrainians, Armenians, Ethiopians, South Sudanese, Koreans, Hmong, Messianic Jews, Nepali/Bhutanese, Indians, Hispanics, and Americans. The Lord planted within David and Neelu’s heart, the vision to plant a Church in Minnesota to reach ALL PEOPLE GROUPS with the LOVE and HOPE of Lord Jesus Christ. Pastor David is a graduate of Victory Bible College & Victory Missions from Tulsa, OK.",
+      "Pr. Richard Kirunda serves as the head pastor of Shalom Gates of Praise Ministries. Pr. Charles serves as Resident Pastor, helping the church preach, transform and send believers into the mission God has given us.",
     buttonText: "Learn More",
     image: "/assets/icons/new-placeholder.svg",
     imageAlt: "Our Pastors",
@@ -29,27 +29,27 @@ export const aboutConfig = {
   values: [
     {
       icon: BookOpen,
-      title: "THE SCRIPTURES",
+      title: "FAMILY",
       description:
-        "The Bible is the inspired Word of God, the product of holy men of old who spoke and wrote as they were moved by the Holy Spirit. The New Covenant, as recorded in the New Testament, we accept as our infallible guide in matters pertaining to conduct and doctrine. (2 Timothy 3:16; 2 Peter 1:21; 1 Thessalonians 2:13)",
+        "We build a welcoming church family where people grow together in faith, love, and purpose.",
     },
     {
       icon: Shield,
-      title: "THE GOD HEAD",
+      title: "SERVANT LEADERSHIP",
       description:
-        "Our God is One but manifested in three persons—the Father, the Son, and the Holy Spirit. (Philippians 2:6; John 14:21-26)God the Father is greater than all, and He is the Source of the Word (Logos) and the Begetter. (John 14:28; John 16:28; John 1:14)The Son is the flesh-covered Word, the One Begotten, and has existed with the Father from the beginning. (John 1:14; John 1:18; John 1:1)The Holy Spirit proceeds forth from both the Father and the Son and is eternal. (John 15:26).",
+        "We raise and equip people to serve God and others with humility, integrity, and excellence.",
     },
     {
       icon: Heart,
-      title: "MAN, HIS FALL AND REDEMPTION",
+      title: "WINNING SOULS",
       description:
-        "Man is a created being, made in the likeness and image of God. But through Adam’s transgression and fall, sin came into the world. The Bible tells us in Romans 3:23 that “All have sinned and came short of the glory of God.” Romans 3:10 says, “As it is written, there is none righteous, no not one.” Jesus Christ, the Son of God, was manifested to undo the work of the devil, and He gave His life and shed His blood to redeem and restore man back to God. (Romans 5:12; Romans 3:23; Romans 3:10; 1 John 3:8)Salvation is the gift of God to man, separate from works and the law, and is made operative by grace through faith in Jesus Christ, producing works acceptable to God. (Ephesians 2:8).",
+        "We share the good news of Jesus Christ and serve our community as part of God's whole-world mission.",
     },
     {
       icon: Cross,
-      title: "ETERNAL LIFE AND NEW BIRTH",
+      title: "INTEGRITY",
       description:
-        "Man’s first step toward salvation is godly sorrow that works in repentance. The new birth is available to all mankind, and when Jesus Christ is accepted as Savior, salvation takes place. He is born again. His Spirit becomes alive to God eternally. (2 Corinthians 7:10; 1 John 5:12; John 3:3-5).",
+        "We pursue honest, faithful lives that reflect the character of Christ in our church, homes, and community.",
     },
     {
       icon: Heart,
@@ -90,24 +90,24 @@ export const aboutConfig = {
   ] as Value[],
   team: [
     {
-      name: "John Doe",
-      role: "Founder & CEO",
+      name: "Pr. Richard Kirunda",
+      role: "Head Pastor",
       image: "/assets/icons/new-placeholder.svg",
     },
     {
-      name: "Jane Smith",
-      role: "COO",
+      name: "Pr. Charles",
+      role: "Resident Pastor",
       image: "/assets/icons/new-placeholder.svg",
     },
     {
-      name: "Mike Johnson",
-      role: "CTO",
+      name: "Benjamin",
+      role: "Youth Team Leader",
       image: "/assets/icons/new-placeholder.svg",
     },
   ] as TeamMember[],
   mission: {
     title: "Our Mission",
     content:
-      "We exist to lead people to Jesus Christ and the fullness of life he has for them. To know Jesus and Make Jesus Known. EQUIP EMPOWER ENRICH. We exist to equip people with God’s word, to empower community engagement, and enrich relationships with God and others.",
+      "Preach, transform and send. We are a community of believers sent on a whole mission, in the whole world, beginning with our very own.",
   },
 };

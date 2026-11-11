@@ -27,102 +27,59 @@ import { Badge } from "@/components/ui/badge";
 const events = [
   {
     id: 1,
-    title: "Summer Youth Camp",
-    date: new Date(2023, 6, 15), // July 15, 2023
-    endDate: new Date(2023, 6, 15), // July 20, 2023
-    time: "9:00 AM - 4:00 PM",
-    location: "Pine Valley Retreat Center",
+    title: "Shalom Prayer Evenings",
+    date: new Date(2026, 10, 1),
+    endDate: new Date(2026, 10, 1),
+    time: "3:00 PM - 7:00 PM",
+    location: "Shalom Gates of Praise Ministries, Entebbe",
     description:
-      "A week-long adventure for youth to grow in faith and friendship.",
-    image: "https://picsum.photos/600/400",
-    capacity: 100,
-    ageGroup: "13-18 years",
+      "An evening of prayer, fellowship, and spiritual renewal. Meeting 3.",
+    image: "/assets/logos/logo-no-background.png",
+    capacity: 0,
+    ageGroup: "All ages",
     activities: [
       "Bible Study",
-      "Outdoor Adventures",
-      "Team Building",
-      "Worship Sessions",
+      "Prayer",
+      "Worship",
+      "Fellowship",
     ],
-    contact: "youth@church.com",
+    contact: "+256 773 770216",
   },
   {
     id: 2,
-    title: "Community Outreach Day",
-    date: new Date(2023, 7, 5), // August 5, 2023
-    time: "10:00 AM - 2:00 PM",
-    location: "City Park",
+    title: "Hyper Worship 2026",
+    date: new Date(2026, 11, 13),
+    time: "3:00 PM - 6:00 PM",
+    location: "Shalom Gates of Praise Ministries, Entebbe (Magala)",
     description:
-      "Join us as we serve our community through various projects and activities.",
-    image: "https://picsum.photos/600/400",
-    capacity: 200,
+      'Theme: "Now that you are here" (Hebrews 11:6). Join us for a powerful worship gathering.',
+    image: "/assets/logos/logo-no-background.png",
+    capacity: 0,
     ageGroup: "All ages",
     activities: [
-      "Food Drive",
-      "Park Cleanup",
-      "Free Health Screenings",
-      "Kids' Fun Zone",
+      "Praise",
+      "Worship",
+      "Fellowship",
     ],
-    contact: "outreach@church.com",
+    contact: "+256 773 770216",
   },
   {
     id: 3,
-    title: "Fall Bible Conference",
-    date: new Date(2023, 8, 22), // September 22, 2023
-    endDate: new Date(2023, 8, 24), // September 24, 2023
-    time: "7:00 PM (Fri), 9:00 AM - 5:00 PM (Sat-Sun)",
-    location: "Main Auditorium",
+    title: "Mega Praise Feast",
+    date: new Date(2027, 0, 17),
+    time: "2:00 PM",
+    location: "The Works Grounds",
     description:
-      "A weekend of in-depth Bible study and spiritual growth with guest speakers.",
-    image: "https://picsum.photos/600/400",
-    capacity: 500,
-    ageGroup: "Adults",
+      "A celebration of praise and worship under the theme verse John 12:32.",
+    image: "/assets/logos/logo-no-background.png",
+    capacity: 0,
+    ageGroup: "All ages",
     activities: [
-      "Keynote Sessions",
-      "Workshops",
-      "Q&A Panels",
-      "Worship Services",
+      "Praise",
+      "Worship",
+      "Community",
     ],
-    contact: "events@church.com",
-  },
-  {
-    id: 4,
-    title: "Christmas Carol Sing",
-    date: new Date(2023, 11, 15), // December 15, 2023
-    endDate: new Date(2023, 11, 15), // December 15, 2023
-    time: "7:00 PM (Fri), 9:00 AM - 5:00 PM (Sat-Sun)",
-    location: "Main Auditorium",
-    description:
-      "A weekend of in-depth Bible study and spiritual growth with guest speakers.",
-    image: "https://picsum.photos/600/400",
-    capacity: 500,
-    ageGroup: "Adults",
-    activities: [
-      "Keynote Sessions",
-      "Workshops",
-      "Q&A Panels",
-      "Worship Services",
-    ],
-    contact: "events@church.com",
-  },
-  {
-    id: 5,
-    title: "RCMN Bible Conference",
-    date: new Date(2024, 11, 15), // December 15, 2023
-    endDate: new Date(2024, 11, 15), // December 15, 2023
-    time: "7:00 PM (Fri), 9:00 AM - 5:00 PM (Sat-Sun)",
-    location: "Main Auditorium",
-    description:
-      "A weekend of in-depth Bible study and spiritual growth with guest speakers.",
-    image: "https://picsum.photos/600/400",
-    capacity: 500,
-    ageGroup: "Adults",
-    activities: [
-      "Keynote Sessions",
-      "Workshops",
-      "Q&A Panels",
-      "Worship Services",
-    ],
-    contact: "events@church.com",
+    contact: "+256 773 770216",
   },
 ];
 
@@ -171,7 +128,7 @@ export default function EventPage() {
       <div className="relative bg-gray-900 -mt-[104px] md:-mt-[112px]">
         <div className="absolute inset-0">
           <Image
-            src="/assets/placeholder.svg"
+            src="/assets/logos/logo-no-background.png"
             alt="Events"
             fill
             className="object-cover object-center opacity-60"

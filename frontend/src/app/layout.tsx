@@ -14,16 +14,16 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://rcmn.church'),
+  metadataBase: new URL('https://shalomgatesofpraise.org'),
   title: {
-    template: '%s | Revival Center Minnesota',
-    default: 'Revival Center Minnesota',
+    template: '%s | Shalom Gates of Praise Ministries',
+    default: 'Shalom Gates of Praise Ministries',
   },
-  description: 'Revival Center Minnesota is a vibrant, multicultural church committed to spreading the love and hope of Jesus Christ. Join us for worship, fellowship, and community service.',
-  keywords: ['church', 'minnesota', 'revival', 'christian', 'worship', 'community', 'faith'],
-  authors: [{ name: 'Revival Center Minnesota' }],
-  creator: 'Revival Center Minnesota',
-  publisher: 'Revival Center Minnesota',
+  description: 'Shalom Gates of Praise Ministries in Entebbe – Magala, Uganda. Raising generals for generations.',
+  keywords: ['Shalom Gates of Praise Ministries', 'Entebbe', 'Uganda', 'church', 'worship', 'faith'],
+  authors: [{ name: 'Shalom Gates of Praise Ministries' }],
+  creator: 'Shalom Gates of Praise Ministries',
+  publisher: 'Shalom Gates of Praise Ministries',
   formatDetection: {
     email: false,
     address: false,
@@ -37,23 +37,23 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://rcmn.church',
-    title: 'Revival Center Minnesota',
-    description: 'A vibrant, multicultural church spreading the love and hope of Jesus Christ',
-    siteName: 'Revival Center Minnesota',
+    url: 'https://shalomgatesofpraise.org',
+    title: 'Shalom Gates of Praise Ministries',
+    description: 'Raising generals for generations in Entebbe – Magala, Uganda.',
+    siteName: 'Shalom Gates of Praise Ministries',
     images: [
       {
         url: '/assets/icons/new-placeholder.svg',
         width: 800,
         height: 600,
-        alt: 'Revival Center Minnesota',
+        alt: 'Shalom Gates of Praise Ministries',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Revival Center Minnesota',
-    description: 'A vibrant, multicultural church spreading the love and hope of Jesus Christ',
+    title: 'Shalom Gates of Praise Ministries',
+    description: 'Raising generals for generations in Entebbe – Magala, Uganda.',
     images: ['/assets/icons/new-placeholder.svg'],
   },
   robots: {

@@ -10,8 +10,8 @@ export default function HeroSection() {
       {/* Full width hero image with overlay */}
       <div className="absolute inset-0">
         <Image
-          src="/assets/icons/new-placeholder.svg"
-          alt="Church Community"
+          src="/assets/logos/logo-no-background.png"
+          alt="Shalom Gates of Praise Ministries"
           fill
           className="object-cover object-center opacity-60"
           priority
@@ -24,13 +24,21 @@ export default function HeroSection() {
       <div className="relative min-h-screen flex items-end">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 pb-20 pt-[120px] sm:pt-[140px]">
           <div className="max-w-4xl space-y-6">
+            <motion.p
+              className="text-sm sm:text-base font-semibold uppercase tracking-[0.3em] text-earthYellow"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.1 }}
+            >
+              Shalom Gates of Praise Ministries
+            </motion.p>
             <motion.h1 
               className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight text-white"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              We exist to know, enjoy, and express the love of Jesus
+              Raising generals for generations
             </motion.h1>
             <motion.p 
               className="text-xl sm:text-2xl md:text-3xl text-white/90 font-medium tracking-wider"
@@ -38,7 +46,7 @@ export default function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.3 }}
             >
-              Love God | Love People | Serve People
+              Preach · Transform · Send
             </motion.p>
             <motion.div 
               className="flex flex-col sm:flex-row gap-4 pt-8"
@@ -53,7 +61,7 @@ export default function HeroSection() {
                          inline-flex items-center justify-center sm:w-auto w-full
                          border border-earthYellow shadow-md hover:shadow-lg"
               >
-                Visit In-Person
+                Visit Us
               </Link>
               <Link
                 href="/watch"
@@ -62,7 +70,7 @@ export default function HeroSection() {
                          inline-flex items-center justify-center sm:w-auto w-full
                          border border-earthYellow/20 shadow-md hover:shadow-lg"
               >
-                Watch Online
+                Explore Our Mission
               </Link>
             </motion.div>
           </div>

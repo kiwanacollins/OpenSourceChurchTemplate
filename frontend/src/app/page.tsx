@@ -3,23 +3,23 @@ import HeroSection from "@/components/Hero";
 import FeaturesSection from "@/components/FeaturesSection";
 
 export const metadata: Metadata = {
-  title: 'Welcome to Revival Center Minnesota',
-  description: 'Experience the power of worship and community at Revival Center Minnesota. Join us for inspiring services, meaningful fellowship, and impactful outreach programs.',
+  title: 'Shalom Gates of Praise Ministries',
+  description: 'Shalom Gates of Praise Ministries in Entebbe – Magala, Uganda. Raising generals for generations.',
   openGraph: {
-    title: 'Welcome to Revival Center Minnesota',
-    description: 'Experience the power of worship and community at Revival Center Minnesota',
+    title: 'Shalom Gates of Praise Ministries',
+    description: 'Raising generals for generations in Entebbe – Magala, Uganda.',
     images: [
       {
         url: '/assets/icons/new-placeholder.svg',
         width: 800,
         height: 600,
-        alt: 'Revival Center Minnesota Welcome',
+        alt: 'Shalom Gates of Praise Ministries',
       },
     ],
   },
   twitter: {
-    title: 'Welcome to Revival Center Minnesota',
-    description: 'Experience the power of worship and community at Revival Center Minnesota',
+    title: 'Shalom Gates of Praise Ministries',
+    description: 'Raising generals for generations in Entebbe – Magala, Uganda.',
     images: ['/assets/icons/new-placeholder.svg'],
   },
 };

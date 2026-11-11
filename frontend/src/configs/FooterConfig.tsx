@@ -8,11 +8,11 @@ import {
 export const footerConfig = {
   sections: [
     {
-      title: "About",
+      title: "Our Church",
       enabled: true,
       links: [
-        { label: "Beliefs", href: "/about" },
-        { label: "Values", href: "/about" },
+        { label: "About Us", href: "/about/aboutus" },
+        { label: "Our Mission", href: "/about" },
         { label: "Leadership", href: "/about" },
       ],
     },
@@ -31,25 +31,25 @@ export const footerConfig = {
       title: "Ministries",
       enabled: true,
       links: [
-        { label: "Youth", href: "/ministries" },
-        { label: "Outreach", href: "/ministries" },
+        { label: "Family", href: "/ministries" },
+        { label: "Servant Leadership", href: "/ministries" },
+        { label: "Winning Souls", href: "/ministries" },
       ],
     },
     {
       title: "Opportunities",
       enabled: true,
       links: [
-        { label: "Jobs", href: "/get-involved" },
-        { label: "Internships", href: "/get-involved" },
-        { label: "Apprenticeships", href: "/get-involved" },
+        { label: "Get Involved", href: "/get-involved" },
+        { label: "Events", href: "/events" },
       ],
     },
     {
       title: "Join Us",
       enabled: true,
       links: [
-        { label: "Find a Location", href: "/location" },
-        { label: "Watch Parties", href: "/location" },
+        { label: "Visit Us", href: "/location" },
+        { label: "Watch Online", href: "/watch" },
         { label: "Events", href: "/events" },
       ],
     },
@@ -65,8 +65,8 @@ export const footerConfig = {
     },
   ],
   contactInfo: {
-    address: "7305 Afton Rd, Woodbury, MN 55125",
-    phone: "(651) 204-3333",
+    address: "Entebbe – Magala, Uganda",
+    phone: "+256 755 832138",
   },
   socialMedia: [
     { icon: YoutubeIcon, label: "YouTube", href: "#" },
@@ -75,7 +75,7 @@ export const footerConfig = {
     { icon: TwitterIcon, label: "Twitter", href: "#" },
   ],
   legalInfo: {
-    copyright: " 2024 Revival Church. All Rights Reserved",
+    copyright: "Shalom Gates of Praise Ministries. All Rights Reserved",
     links: [
       { label: "Terms Of Use", href: "/terms" },
       { label: "Privacy Policy", href: "/privacy" },

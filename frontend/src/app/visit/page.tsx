@@ -6,7 +6,7 @@ export default function VisitPage() {
     <main>
       <PageHeader
         title="Visit Us"
-        description="Join us for worship and fellowship"
+        description="Join our church family in Entebbe – Magala, Uganda"
         backgroundImage="/assets/icons/new-placeholder.svg"
       />
       <section className="py-16 px-4 sm:px-6 lg:px-8">
@@ -15,7 +15,7 @@ export default function VisitPage() {
             <div>
               <h2 className="text-3xl font-bold mb-4">Service Times</h2>
               <p className="text-gray-600 mb-6">
-                Sunday Service: 1:00 PM
+                Service times will be announced soon.
               </p>
               <h3 className="text-2xl font-bold mb-4">What to Expect</h3>
               <ul className="list-disc pl-5 text-gray-600 space-y-2">
@@ -28,8 +28,7 @@ export default function VisitPage() {
             <div>
               <h2 className="text-3xl font-bold mb-4">Location</h2>
               <p className="text-gray-600 mb-6">
-                [Your Church Address]<br />
-                [City, State ZIP]
+                Entebbe – Magala, Uganda
               </p>
               <div className="bg-gray-100 p-6 rounded-lg">
                 <h3 className="text-2xl font-bold mb-4">First Time?</h3>

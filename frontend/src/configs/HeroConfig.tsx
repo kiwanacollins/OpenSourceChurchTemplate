@@ -2,9 +2,9 @@ import { Calendar, MapPin, Heart } from "lucide-react";
 import { FeatureConfig } from "@/types/FeatureConfig";
 
 export const heroConfig = {
-  title: "Welcome to Revival Center Minnesota",
+  title: "Raising generals for generations",
   subtitle:
-    "Join us in worship, fellowship, and service as we grow together in faith and love.",
+    "Shalom Gates of Praise Ministries is a community of believers sent on a whole mission, in the whole world, beginning with our very own.",
   buttons: [
     {
       text: "Join Us",
@@ -34,7 +34,7 @@ export const heroConfig = {
       icon: Calendar,
       title: "Upcoming Events",
       description:
-        "Join us for special services, community outreach, and fellowship gatherings.",
+        "Join us for prayer, worship, and gatherings that strengthen the whole church family.",
       button: {
         text: "View Events",
         href: "/events",
@@ -47,7 +47,7 @@ export const heroConfig = {
       icon: MapPin,
       title: "Find Us",
       description:
-        "Located in the heart of our community, we're here to serve and welcome you.",
+        "Find Shalom Gates of Praise Ministries in Entebbe – Magala, Uganda.",
       button: {
         text: "Get Directions",
         href: "/location",
@@ -60,7 +60,7 @@ export const heroConfig = {
       icon: Heart,
       title: "Our Mission",
       description:
-        "Spreading love, hope, and compassion through faith and community service.",
+        "Preach, transform and send. We are a people on mission for our community and the world.",
       button: {
         text: "Learn More",
         href: "/about/aboutus",

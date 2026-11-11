@@ -3,28 +3,28 @@ import ContactModal from "../components/ui/ContactModal";
 
 export const headerConfig = {
   logo: {
-    src: "/assets/logos/rcmn-logo.svg",
-    alt: "RCMN Logo",
+    src: "/assets/logos/logo-no-background.png",
+    alt: "Shalom Gates of Praise Ministries",
   },
   navItems: [
-    { name: "Watch", href: "/watch" },
-    { name: "Locations", href: "/location" },
+    { name: "Home", href: "/" },
+    { name: "Visit Us", href: "/location" },
     {
       name: "About",
       href: "/about",
       dropdown: [
         { name: "About Us", href: "/about/aboutus" },
-        { name: "Ministries", href: "/about/ministries" },
+        { name: "Ministries", href: "/ministries" },
       ],
     },
-    { name: "Get Involved", href: "/get-involved" },
-    { name: "Give", href: "/give" },
+    { name: "Events", href: "/events" },
+    { name: "Watch", href: "/watch" },
     {
-      name: "Resources",
-      href: "/resources",
+      name: "Get Involved",
+      href: "/get-involved",
       dropdown: [
-        { name: "Devotionals", href: "/resources/devotional" },
-        { name: "Church Resources", href: "/resources/church-resources" },
+        { name: "Ministries", href: "/ministries" },
+        { name: "Resources", href: "/resources" },
       ],
     },
   ],
@@ -45,7 +45,7 @@ export const headerConfig = {
     },
   ],
   subheader: {
-    name: "JOIN US FOR WORSHIP THIS SUNDAY AT 1:00 PM IN-PERSON OR VIA LIVESTREAM",
+    name: "SHALOM GATES OF PRAISE MINISTRIES · ENTEBBE – MAGALA, UGANDA",
     enabled: true,
     className:
       "bg-primary text-white text-center py-2 font-medium tracking-wide",

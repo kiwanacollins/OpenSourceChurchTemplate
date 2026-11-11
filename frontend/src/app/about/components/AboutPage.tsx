@@ -10,13 +10,13 @@ import { HandHeartIcon, UsersIcon, BookOpenIcon } from "lucide-react";
 const aboutContent = {
   hero: {
     title: "About Us",
-    subtitle: "A community united in faith, service, and love",
+    subtitle: "Raising generals for generations",
     backgroundImage: "/assets/icons/new-placeholder.svg",
   },
   story: {
     title: "Our Story",
     content:
-      "Founded on the principles of love, compassion, and community service, Revival Center has been a beacon of hope in our community. We believe in creating an inclusive environment where everyone can experience God's love and grow in their faith journey.",
+      "Shalom Gates of Praise Ministries is a community of believers sent on a whole mission, in the whole world, beginning with our very own.",
     image: "/assets/icons/new-placeholder.svg",
     button: {
       text: "Learn More",
