@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import HeroSection from "@/components/Hero";
 import FeaturesSection from "@/components/FeaturesSection";
+import HomeMissionSection from "@/components/HomeMissionSection";
+import HomeServiceTimesSection from "@/components/HomeServiceTimesSection";
+import HomeCtaSection from "@/components/HomeCtaSection";
 
 export const metadata: Metadata = {
   title: 'Shalom Gates of Praise Ministries',
@@ -29,6 +32,9 @@ export default function Home() {
     <>
       <HeroSection />
       <FeaturesSection />
+      <HomeMissionSection />
+      <HomeServiceTimesSection />
+      <HomeCtaSection />
     </>
   );
 }

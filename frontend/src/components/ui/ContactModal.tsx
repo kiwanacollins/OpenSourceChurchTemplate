@@ -59,7 +59,7 @@ export default function ContactModal() {
 
               <Card>
                 <CardContent className="flex flex-col items-center text-center p-4">
-                  <Clock className="w-8 h-8 text-green-500 mb-2" />
+                  <Clock className="w-8 h-8 text-earthYellow mb-2" />
                   <h3 className="text-lg font-semibold mb-1">Opening Hours</h3>
                   <p>Meeting Hour: Sunday 4:00 PM (CST)</p>
                 </CardContent>

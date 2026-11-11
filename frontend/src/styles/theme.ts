@@ -9,9 +9,9 @@ export const theme = {
   },
   colors: {
     primary: {
-      DEFAULT: '#16a34a',  // green-600
-      light: '#22c55e',    // green-500
-      dark: '#15803d',     // green-700
+      DEFAULT: '#8B1C1C',  // logo burgundy
+      light: '#B52B2B',    // lighter burgundy
+      dark: '#5C0F0F',     // deep maroon
     },
     text: {
       primary: '#1f2937',  // gray-800

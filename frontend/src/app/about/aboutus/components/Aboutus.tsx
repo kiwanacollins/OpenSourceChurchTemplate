@@ -10,7 +10,7 @@ import WhyJesusModal from "@/components/Modal/whyjesus";
 
 export default function AboutUs() {
   return (
-    <div className="bg-gradient-to-b from-white to-green-50">
+    <div className="bg-gradient-to-b from-white to-[#FDF3E3]">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

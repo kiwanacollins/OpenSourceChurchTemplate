@@ -42,15 +42,18 @@ export default function Header() {
         >
           <div className="flex items-center justify-between h-14">
             {/* Logo */}
-            <Link href="/" className="flex-shrink-0">
+            <Link href="/" className="flex-shrink-0 flex items-center gap-2">
               <Image
                 src={headerConfig.logo.src}
                 alt={headerConfig.logo.alt}
-                width={120}
-                height={40}
-                className="h-8 w-auto"
+                width={36}
+                height={36}
+                className="h-9 w-9 rounded-sm object-cover flex-shrink-0"
                 priority
               />
+              <span className="hidden sm:block font-bold text-sm text-gray-800 leading-tight max-w-[160px]">
+                Shalom Gates of Praise Ministries
+              </span>
             </Link>
 
             {/* Desktop Navigation */}
@@ -65,7 +68,7 @@ export default function Header() {
                 </Link>
               ))}
               <Button
-                className="bg-green-600 hover:bg-green-700 text-white rounded-full px-6"
+                className="bg-darkMossGreen hover:bg-pakistanGreen text-white rounded-full px-6"
               >
                 Contact Us
               </Button>
@@ -96,14 +99,17 @@ export default function Header() {
           >
             <div className="flex flex-col h-full">
               <div className="flex items-center justify-between p-4 border-b">
-                <Link href="/" onClick={() => setIsMobileMenuOpen(false)}>
+                <Link href="/" onClick={() => setIsMobileMenuOpen(false)} className="flex items-center gap-2">
                   <Image
                     src={headerConfig.logo.src}
                     alt={headerConfig.logo.alt}
-                    width={120}
-                    height={40}
-                    className="h-8 w-auto"
+                    width={36}
+                    height={36}
+                    className="h-9 w-9 rounded-sm object-cover"
                   />
+                  <span className="font-bold text-sm text-gray-800 leading-tight">
+                    Shalom Gates of Praise Ministries
+                  </span>
                 </Link>
                 <button
                   onClick={() => setIsMobileMenuOpen(false)}
@@ -125,7 +131,7 @@ export default function Header() {
                     {item.name}
                   </Link>
                 ))}
-                <Button className="w-full mt-4 bg-green-600 hover:bg-green-700 text-white rounded-full">Contact Us</Button>
+                <Button className="w-full mt-4 bg-darkMossGreen hover:bg-pakistanGreen text-white rounded-full">Contact Us</Button>
               </nav>
             </div>
           </motion.div>

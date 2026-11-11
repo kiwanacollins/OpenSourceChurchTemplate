@@ -79,7 +79,7 @@ export default function ResourceComponent() {
   );
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-green-50 p-8">
+    <div className="min-h-screen bg-gradient-to-b from-white to-[#FDF3E3] p-8">
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
