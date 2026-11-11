@@ -10,7 +10,7 @@ export default function HeroSection() {
       {/* Full width hero image with overlay */}
       <div className="absolute inset-0">
         <Image
-          src="/assets/logos/logo-no-background.png"
+          src="/assets/images/hero-worship.jpg"
           alt="Shalom Gates of Praise Ministries"
           fill
           className="object-cover object-center opacity-60"

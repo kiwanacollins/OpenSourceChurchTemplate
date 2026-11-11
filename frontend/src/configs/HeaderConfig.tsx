@@ -3,7 +3,7 @@ import ContactModal from "../components/ui/ContactModal";
 
 export const headerConfig = {
   logo: {
-    src: "/assets/logos/logo-no-background.png",
+    src: "/assets/client/logo/shalom-logo-primary.jpg",
     alt: "Shalom Gates of Praise Ministries",
   },
   navItems: [

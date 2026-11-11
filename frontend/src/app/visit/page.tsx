@@ -7,7 +7,7 @@ export default function VisitPage() {
       <PageHeader
         title="Visit Us"
         description="Join our church family in Entebbe – Magala, Uganda"
-        backgroundImage="/assets/icons/new-placeholder.svg"
+        backgroundImage="/assets/images/visit-hero.jpg"
       />
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto" >

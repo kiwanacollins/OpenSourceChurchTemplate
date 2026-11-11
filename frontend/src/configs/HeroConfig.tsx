@@ -20,7 +20,7 @@ export const heroConfig = {
     },
   ],
   image: {
-    src: "/assets/icons/new-placeholder.svg",
+    src: "/assets/images/hero-worship.jpg",
     alt: "Church gathering",
     width: 600,
     height: 400,
@@ -41,7 +41,7 @@ export const heroConfig = {
         className:
           "mt-4 inline-block bg-darkMossGreen hover:bg-earthYellow text-white font-semibold py-2 px-4 rounded transition duration-300",
       },
-      backgroundImage: "/assets/icons/new-placeholder.svg",
+      backgroundImage: "/assets/images/hero-events.jpg",
     },
     {
       icon: MapPin,
@@ -54,7 +54,7 @@ export const heroConfig = {
         className:
           "mt-4 inline-block bg-darkMossGreen hover:bg-earthYellow text-white font-semibold py-2 px-4 rounded transition duration-300",
       },
-      backgroundImage: "/assets/icons/new-placeholder.svg",
+      backgroundImage: "/assets/images/hero-location.jpg",
     },
     {
       icon: Heart,
@@ -67,7 +67,7 @@ export const heroConfig = {
         className:
           "mt-4 inline-block bg-darkMossGreen hover:bg-earthYellow text-white font-semibold py-2 px-4 rounded transition duration-300",
       },
-      backgroundImage: "/assets/icons/new-placeholder.svg",
+      backgroundImage: "/assets/images/hero-mission.jpg",
     },
   ] as FeatureConfig[],
 };

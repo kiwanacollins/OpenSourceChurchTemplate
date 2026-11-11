@@ -7,7 +7,7 @@ export default function PrivacyPolicyPage() {
       <PageHeader
         title="Privacy Policy"
         description="How we protect your information"
-        backgroundImage="/assets/icons/new-placeholder.svg"
+        backgroundImage="/assets/images/resources-hero.jpg"
       />
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto prose prose-lg">

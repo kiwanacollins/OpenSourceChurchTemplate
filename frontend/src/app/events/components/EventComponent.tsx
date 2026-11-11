@@ -34,7 +34,7 @@ const events = [
     location: "Shalom Gates of Praise Ministries, Entebbe",
     description:
       "An evening of prayer, fellowship, and spiritual renewal. Meeting 3.",
-    image: "/assets/logos/logo-no-background.png",
+    image: "/assets/images/events-prayer.jpg",
     capacity: 0,
     ageGroup: "All ages",
     activities: [
@@ -53,7 +53,7 @@ const events = [
     location: "Shalom Gates of Praise Ministries, Entebbe (Magala)",
     description:
       'Theme: "Now that you are here" (Hebrews 11:6). Join us for a powerful worship gathering.',
-    image: "/assets/logos/logo-no-background.png",
+    image: "/assets/images/events-worship.jpg",
     capacity: 0,
     ageGroup: "All ages",
     activities: [
@@ -71,7 +71,7 @@ const events = [
     location: "The Works Grounds",
     description:
       "A celebration of praise and worship under the theme verse John 12:32.",
-    image: "/assets/logos/logo-no-background.png",
+    image: "/assets/images/events-praise-feast.jpg",
     capacity: 0,
     ageGroup: "All ages",
     activities: [
@@ -128,7 +128,7 @@ export default function EventPage() {
       <div className="relative bg-gray-900 -mt-[104px] md:-mt-[112px]">
         <div className="absolute inset-0">
           <Image
-            src="/assets/logos/logo-no-background.png"
+            src="/assets/images/events-hero.jpg"
             alt="Events"
             fill
             className="object-cover object-center opacity-60"

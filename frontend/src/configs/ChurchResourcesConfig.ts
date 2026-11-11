@@ -5,7 +5,7 @@ export const churchResourcesConfig = {
     title: "Church Resources",
     subtitle: "Access Important Church Documents and Forms",
     description: "Find all the resources you need to get involved and stay connected with our church community",
-    backgroundImage: "/assets/icons/new-placeholder.svg",
+    backgroundImage: "/assets/images/church-resources-hero.jpg",
   },
   categories: [
     {

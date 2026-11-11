@@ -19,7 +19,7 @@ export interface PaymentOption {
 export const giveConfig = {
   header: {
     title: "Support Our Ministry",
-    backgroundImage: "/assets/icons/new-placeholder.svg",
+    backgroundImage: "/assets/images/give-hero.jpg",
   },
   scripture: {
     verse: "Each of you should give what you have decided in your heart to give, not reluctantly or under compulsion, for God loves a cheerful giver.",

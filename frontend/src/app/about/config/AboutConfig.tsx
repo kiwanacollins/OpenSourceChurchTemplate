@@ -23,7 +23,7 @@ export const aboutConfig = {
     content:
       "Pr. Richard Kirunda serves as the head pastor of Shalom Gates of Praise Ministries. Pr. Charles serves as Resident Pastor, helping the church preach, transform and send believers into the mission God has given us.",
     buttonText: "Learn More",
-    image: "/assets/icons/new-placeholder.svg",
+    image: "/assets/images/about-leadership.jpg",
     imageAlt: "Our Pastors",
   },
   values: [
@@ -92,17 +92,17 @@ export const aboutConfig = {
     {
       name: "Pr. Richard Kirunda",
       role: "Head Pastor",
-      image: "/assets/icons/new-placeholder.svg",
+      image: "/assets/client/pastors/pastor-richard-kirunda-blue-suit.jpg",
     },
     {
       name: "Pr. Charles",
       role: "Resident Pastor",
-      image: "/assets/icons/new-placeholder.svg",
+      image: "/assets/client/pastors/pastor-richard-kirunda-beige-suit.jpg",
     },
     {
       name: "Benjamin",
       role: "Youth Team Leader",
-      image: "/assets/icons/new-placeholder.svg",
+      image: "/assets/client/pastors/pastor-richard-kirunda-black-suit.jpg",
     },
   ] as TeamMember[],
   mission: {

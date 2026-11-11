@@ -22,7 +22,7 @@ export default function ChurchLocation() {
       <div className="relative bg-gray-900 -mt-[104px] md:-mt-[112px]">
         <div className="absolute inset-0">
           <Image
-            src={locationConfig.hero.backgroundImage || "/assets/icons/new-placeholder.svg"}
+            src={locationConfig.hero.backgroundImage || "/assets/images/location-hero.jpg"}
             alt="Church location background"
             fill
             className="object-cover object-center opacity-60"

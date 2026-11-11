@@ -39,7 +39,7 @@ export const locationConfig: LocationConfig = {
   title: "Visit Shalom Gates of Praise Ministries",
   subtitle: "Join our community in Entebbe – Magala, Uganda.",
   hero: {
-    backgroundImage: "",
+    backgroundImage: "/assets/images/location-hero.jpg",
   },
   location: {
     address: "Entebbe – Magala, Uganda",

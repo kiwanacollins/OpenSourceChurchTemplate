@@ -43,9 +43,9 @@ export const metadata: Metadata = {
     siteName: 'Shalom Gates of Praise Ministries',
     images: [
       {
-        url: '/assets/icons/new-placeholder.svg',
-        width: 800,
-        height: 600,
+        url: '/assets/images/hero-worship.jpg',
+        width: 1920,
+        height: 1080,
         alt: 'Shalom Gates of Praise Ministries',
       },
     ],
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Shalom Gates of Praise Ministries',
     description: 'Raising generals for generations in Entebbe – Magala, Uganda.',
-    images: ['/assets/icons/new-placeholder.svg'],
+    images: ['/assets/images/hero-worship.jpg'],
   },
   robots: {
     index: true,

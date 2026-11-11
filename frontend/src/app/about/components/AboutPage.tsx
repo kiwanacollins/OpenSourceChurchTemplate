@@ -11,13 +11,13 @@ const aboutContent = {
   hero: {
     title: "About Us",
     subtitle: "Raising generals for generations",
-    backgroundImage: "/assets/icons/new-placeholder.svg",
+    backgroundImage: "/assets/images/about-hero.jpg",
   },
   story: {
     title: "Our Story",
     content:
       "Shalom Gates of Praise Ministries is a community of believers sent on a whole mission, in the whole world, beginning with our very own.",
-    image: "/assets/icons/new-placeholder.svg",
+    image: "/assets/images/about-leadership.jpg",
     button: {
       text: "Learn More",
       href: "/about/history",
@@ -57,9 +57,9 @@ const aboutContent = {
     description: "Meet the dedicated individuals who help guide our community.",
     members: [
       {
-        name: "Pastor John Doe",
-        role: "Senior Pastor",
-        image: "/assets/icons/new-placeholder.svg",
+        name: "Pr. Richard Kirunda",
+        role: "Head Pastor",
+        image: "/assets/client/pastors/pastor-richard-kirunda-blue-suit.jpg",
       },
     ],
   },
@@ -72,7 +72,7 @@ export default function AboutPage() {
       <div className="relative bg-gray-900 -mt-[104px] md:-mt-[112px]">
         <div className="absolute inset-0">
           <Image
-            src={aboutContent.hero.backgroundImage || "/assets/icons/new-placeholder.svg"}
+            src={aboutContent.hero.backgroundImage || "/assets/images/about-hero.jpg"}
             alt=""
             fill
             className="object-cover object-center opacity-60"
