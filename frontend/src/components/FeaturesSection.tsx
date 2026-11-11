@@ -105,23 +105,22 @@ const highlights: Highlight[] = [
 const FeatureCard = ({ feature }: { feature: Feature }) => (
   <Link
     href={feature.link.href}
-    className="group block h-full bg-white/90 backdrop-blur-sm rounded-3xl overflow-hidden 
-             shadow-md hover:shadow-xl transition-all duration-300 border border-earthYellow/10 hover:border-earthYellow/20">
-    <div className="relative h-48 overflow-hidden">
+    className="group block h-full bg-card overflow-hidden transition-transform duration-500 hover:-translate-y-2">
+    <div className="relative h-64 overflow-hidden">
       <Image
         src={feature.image}
         alt={feature.title}
         fill
-        className="object-cover transform group-hover:scale-105 transition-transform duration-300"
+        className="object-cover grayscale transition-transform duration-700 group-hover:scale-105 group-hover:grayscale-0"
       />
     </div>
-    <div className="p-6">
-      <h3 className="text-xl font-semibold text-darkMossGreen mb-2">
+    <div className="p-7">
+      <h3 className="text-2xl font-semibold text-foreground mb-3">
         {feature.title}
       </h3>
-      <p className="text-pakistanGreen/80 mb-4">{feature.description}</p>
+      <p className="text-foreground/65 mb-6 leading-relaxed">{feature.description}</p>
       <div
-        className="flex items-center text-earthYellow font-medium 
+        className="flex items-center text-foreground font-bold text-xs uppercase tracking-[0.12em]
                     group-hover:text-pakistanGreen transition-colors duration-300">
         <span className="mr-2">{feature.link.text}</span>
         <svg
@@ -144,15 +143,13 @@ const FeatureCard = ({ feature }: { feature: Feature }) => (
 const HighlightCard = ({ highlight }: { highlight: Highlight }) => (
   <Link
     href={highlight.link.href}
-    className="group block h-full bg-white/90 backdrop-blur-sm rounded-3xl overflow-hidden 
-             shadow-md hover:shadow-xl transition-all duration-300 
-             border border-earthYellow/10 hover:border-earthYellow/20">
+    className="group block h-full bg-foreground overflow-hidden transition-transform duration-500 hover:-translate-y-2">
     <div className="relative h-64 overflow-hidden">
       <Image
         src={highlight.image}
         alt={highlight.title}
         fill
-        className="object-cover transform group-hover:scale-105 transition-transform duration-300"
+        className="object-cover grayscale transition-transform duration-700 group-hover:scale-105 group-hover:grayscale-0"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-[#1a1a1a]/90 to-transparent" />
       <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
@@ -177,7 +174,7 @@ const HighlightCard = ({ highlight }: { highlight: Highlight }) => (
       </div>
     </div>
     <div className="p-6">
-      <p className="text-pakistanGreen/80 mb-4">{highlight.description}</p>
+      <p className="text-foreground/65 mb-4 leading-relaxed">{highlight.description}</p>
       <div
         className="flex items-center text-earthYellow font-medium 
                     group-hover:text-pakistanGreen transition-colors duration-300">
@@ -201,10 +198,10 @@ const HighlightCard = ({ highlight }: { highlight: Highlight }) => (
 
 export default function FeaturesSection() {
   return (
-    <section className="py-20 bg-cornsilk/30">
+    <section className="py-28 md:py-36 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Highlight Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
+        <div className="mb-24 grid grid-cols-1 md:grid-cols-2 gap-5">
           {highlights.map((highlight, index) => (
             <motion.div
               key={index}
@@ -218,7 +215,7 @@ export default function FeaturesSection() {
         </div>
 
         {/* Regular Feature Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-foreground/15 border-y border-foreground/15">
           {features.map((feature, index) => (
             <motion.div
               key={index}

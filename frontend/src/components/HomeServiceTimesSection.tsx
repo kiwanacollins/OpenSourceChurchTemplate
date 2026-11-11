@@ -27,7 +27,7 @@ const services = [
 
 export default function HomeServiceTimesSection() {
   return (
-    <section className="py-24 bg-cornsilk/40">
+    <section className="py-32 md:py-40 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           className="text-center mb-16"
@@ -39,7 +39,7 @@ export default function HomeServiceTimesSection() {
           <p className="text-darkMossGreen text-sm font-semibold uppercase tracking-[0.3em] mb-4">
             Come as you are
           </p>
-          <h2 className="text-4xl sm:text-5xl font-bold text-darkMossGreen">
+          <h2 className="text-5xl sm:text-7xl font-semibold text-foreground">
             Join us this week
           </h2>
         </motion.div>
@@ -52,19 +52,19 @@ export default function HomeServiceTimesSection() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
-              className="bg-white rounded-3xl p-8 shadow-sm border border-earthYellow/10"
+              className="bg-card p-8 border-t-2 border-foreground transition-transform duration-500 hover:-translate-y-2"
             >
               <div className="text-xs font-bold uppercase tracking-widest text-earthYellow mb-3">
                 {service.day}
               </div>
-              <h3 className="text-xl font-semibold text-darkMossGreen mb-2">
+              <h3 className="text-2xl font-semibold text-foreground mb-3">
                 {service.name}
               </h3>
               <div className="flex items-center gap-2 text-pakistanGreen/70 text-sm mb-3">
                 <Clock className="w-4 h-4 flex-shrink-0" />
                 <span>{service.time}</span>
               </div>
-              <p className="text-pakistanGreen/80 text-sm leading-relaxed">
+              <p className="text-foreground/65 text-sm leading-relaxed">
                 {service.description}
               </p>
             </motion.div>

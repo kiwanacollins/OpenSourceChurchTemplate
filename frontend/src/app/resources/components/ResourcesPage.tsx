@@ -48,7 +48,7 @@ export default function ResourcesPage() {
       </div>
 
       {/* Categories Section */}
-      <section className="py-16 bg-white">
+      <section className="py-24 md:py-32 bg-white">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {resourcesConfig.categories.map((category: Category, index) => {
@@ -77,7 +77,7 @@ export default function ResourcesPage() {
       </section>
 
       {/* Featured Resources Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-24 md:py-32 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Featured Resources</h2>
           <div className="grid md:grid-cols-2 gap-8">
@@ -112,7 +112,7 @@ export default function ResourcesPage() {
       </section>
 
       {/* Call to Action Section */}
-      <section className="py-16 bg-darkMossGreen text-white">
+      <section className="py-24 md:py-32 bg-darkMossGreen text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">
             {resourcesConfig.callToAction.title}

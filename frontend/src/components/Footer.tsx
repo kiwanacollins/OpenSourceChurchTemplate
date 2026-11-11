@@ -25,13 +25,13 @@ export default function Footer() {
   );
 
   return (
-    <footer className="bg-[#1a1a1a] text-white" role="contentinfo">
+    <footer className="bg-foreground text-background" role="contentinfo">
       {/* Main Footer */}
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12">
           {enabledSections.map((section, index) => (
             <div key={index}>
-              <h3 className="font-semibold mb-6 text-earthYellow text-lg">
+              <h3 className="font-bold mb-6 text-earthYellow text-xs uppercase tracking-[0.18em]">
                 {section.title}
               </h3>
               <ul className="space-y-4">
@@ -39,7 +39,7 @@ export default function Footer() {
                   <li key={linkIndex}>
                     <Link
                       href={link.href}
-                      className="text-white/80 hover:text-earthYellow transition-colors duration-300
+                      className="text-background/65 hover:text-earthYellow transition-colors duration-300
                                focus:outline-none focus:ring-2 focus:ring-earthYellow/20 rounded">
                       {link.label}
                     </Link>
@@ -53,10 +53,10 @@ export default function Footer() {
         {/* Newsletter Section */}
         <div className="mt-16 pt-16 border-t border-white/10">
           <div className="max-w-2xl mx-auto text-center">
-            <h3 className="text-2xl font-semibold text-earthYellow mb-4">
+            <h3 className="text-3xl font-semibold text-earthYellow mb-4">
               Stay Connected
             </h3>
-            <p className="text-white/80 mb-8">
+            <p className="text-background/65 mb-8">
               Subscribe to our newsletter for updates, events, and spiritual insights.
             </p>
             <form className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">

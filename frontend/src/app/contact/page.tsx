@@ -30,7 +30,7 @@ export default function ContactPage() {
           },
         ]}
       />
-      <div className="pb-16 text-center">
+      <div className="pb-24 md:pb-32 text-center">
         <ConnectionForm />
       </div>
     </div>

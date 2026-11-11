@@ -32,11 +32,11 @@ export default function ContentPage({
         subtitle={subtitle}
         backgroundImage={backgroundImage}
       />
-      <main className="container mx-auto max-w-5xl px-4 py-16">
-        <div className="grid gap-8 md:grid-cols-2">
+      <main className="container mx-auto max-w-5xl px-4 py-24 md:py-32">
+        <div className="grid gap-10 md:grid-cols-2">
           {sections.map((section) => (
-            <section key={section.heading} className="rounded-lg bg-white p-8 shadow-sm">
-              <h2 className="mb-4 text-2xl font-bold text-darkMossGreen">
+            <section key={section.heading} className="rounded-lg bg-white p-8 md:p-10 shadow-sm">
+              <h2 className="mb-6 text-2xl font-bold text-darkMossGreen">
                 {section.heading}
               </h2>
               <p className="leading-7 text-gray-600">{section.body}</p>

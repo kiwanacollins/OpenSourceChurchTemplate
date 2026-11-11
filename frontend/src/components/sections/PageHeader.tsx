@@ -16,28 +16,28 @@ export default function PageHeader({
   description,
 }: PageHeaderProps) {
   return (
-    <div className="relative bg-gray-900 -mt-[104px] md:-mt-[112px]">
+    <div className="relative bg-foreground -mt-[104px] md:-mt-[112px]">
       {backgroundImage && (
         <div className="absolute inset-0">
           <Image
             src={backgroundImage}
             alt=""
             fill
-            className="object-cover object-center opacity-60"
+            className="object-cover object-center opacity-50 grayscale"
             priority
             quality={100}
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#1a1a1a] via-[#1a1a1a]/50 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-foreground via-foreground/50 to-transparent" />
         </div>
       )}
-      <div className="relative min-h-[60vh] flex items-center">
-        <div className="container mx-auto px-4 pt-[104px] md:pt-[112px]">
+      <div className="relative min-h-[65vh] flex items-center">
+        <div className="container mx-auto px-4 pb-20 pt-[180px] md:pt-[196px]">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-white">
+            <h1 className="text-5xl sm:text-6xl md:text-8xl font-semibold tracking-tight text-white">
               {title}
             </h1>
             {subtitle && (
-              <p className="mt-6 text-xl sm:text-2xl text-white/90 font-medium">
+              <p className="mt-6 max-w-2xl mx-auto text-lg sm:text-xl text-white/80 font-medium tracking-tight">
                 {subtitle}
               </p>
             )}

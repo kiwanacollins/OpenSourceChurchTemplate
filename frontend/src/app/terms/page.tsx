@@ -9,7 +9,7 @@ export default function TermsPage() {
         description="Our website terms and conditions"
         backgroundImage="/assets/images/resources-hero.jpg"
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8">
+      <section className="py-24 md:py-32 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto prose prose-lg">
           <h2>Terms of Service</h2>
           <p>Last updated: {new Date().toLocaleDateString()}</p>

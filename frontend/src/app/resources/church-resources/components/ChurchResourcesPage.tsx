@@ -90,7 +90,7 @@ export default function ChurchResourcesPage() {
       </div>
 
       {/* Resources Section */}
-      <section className="py-16 bg-white">
+      <section className="py-24 md:py-32 bg-white">
         <div className="container mx-auto px-4">
           {/* Search and Filter */}
           <div className="max-w-4xl mx-auto mb-12">
@@ -173,7 +173,7 @@ export default function ChurchResourcesPage() {
       </section>
 
       {/* Call to Action Section */}
-      <section className="py-16 bg-darkMossGreen text-white">
+      <section className="py-24 md:py-32 bg-darkMossGreen text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">
             {churchResourcesConfig.callToAction.title}

@@ -44,7 +44,7 @@ export default function GiveComponent() {
     <div className="min-h-screen bg-background">
       <PageHeader {...giveConfig.header} />
 
-      <section className="container mx-auto px-4 py-16">
+      <section className="container mx-auto px-4 py-24 md:py-32">
         <div className="max-w-4xl mx-auto">
           {/* Scripture Quote */}
           <motion.div

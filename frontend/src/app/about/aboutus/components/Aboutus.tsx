@@ -15,7 +15,7 @@ export default function AboutUs() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
-        className="container mx-auto px-4 py-16">
+        className="container mx-auto px-4 py-24 md:py-32">
         <section className="text-center mb-16">
           <motion.h1
             initial={{ y: -20, opacity: 0 }}

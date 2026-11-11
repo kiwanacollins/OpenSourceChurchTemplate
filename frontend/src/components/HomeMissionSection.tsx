@@ -23,15 +23,15 @@ const pillars = [
 
 export default function HomeMissionSection() {
   return (
-    <section className="relative overflow-hidden bg-[#1a1a1a] py-24">
+    <section className="relative overflow-hidden bg-darkMossGreen py-32 md:py-40">
       <div className="absolute inset-0">
         <Image
           src="/assets/images/hero-mission.jpg"
           alt="Mission"
           fill
-          className="object-cover object-center opacity-20"
+          className="object-cover object-center opacity-20 grayscale"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#1a1a1a]/80 to-[#1a1a1a]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-darkMossGreen/80 to-darkMossGreen" />
       </div>
 
       <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
@@ -45,7 +45,7 @@ export default function HomeMissionSection() {
           <p className="text-earthYellow text-sm font-semibold uppercase tracking-[0.3em] mb-4">
             Our Mandate
           </p>
-          <h2 className="text-4xl sm:text-5xl font-bold text-white">
+          <h2 className="text-5xl sm:text-7xl font-semibold text-white">
             Raising generals for generations
           </h2>
         </motion.div>
@@ -58,9 +58,9 @@ export default function HomeMissionSection() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.15 }}
               viewport={{ once: true }}
-              className="text-center border border-earthYellow/20 rounded-3xl p-8 bg-white/5 backdrop-blur-sm"
+              className="text-left border-t border-white/25 pt-7"
             >
-              <div className="text-5xl font-bold text-earthYellow mb-4">
+              <div className="text-4xl font-semibold text-earthYellow mb-5">
                 {pillar.word}
               </div>
               <p className="text-white/70 text-base leading-relaxed">

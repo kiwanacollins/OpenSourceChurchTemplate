@@ -9,7 +9,7 @@ export default function CookiePage() {
         description="Manage your cookie settings and preferences"
         backgroundImage="/assets/images/resources-hero.jpg"
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8">
+      <section className="py-24 md:py-32 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto prose prose-lg">
           <h2>Cookie Policy</h2>
           <p>Last updated: {new Date().toLocaleDateString()}</p>

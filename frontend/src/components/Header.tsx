@@ -25,22 +25,22 @@ export default function Header() {
   return (
     <div className="fixed top-0 left-0 right-0 z-[100]">
       {/* Announcement Bar */}
-      <div className="bg-darkMossGreen text-white text-center py-2 text-sm font-medium tracking-wide">
+      <div className="bg-earthYellow text-black text-center py-2 text-[10px] font-bold uppercase tracking-[0.22em]">
         {headerConfig.subheader.name}
       </div>
 
       {/* Main Header */}
-      <div className="mx-2 sm:mx-4 mt-2 sm:mt-4">
+      <div className="mx-0">
         <header
           className={cn(
-            "w-full rounded-full transition-all duration-300",
-            "bg-gray-100/95 backdrop-blur-sm",
-            "border border-gray-200/20",
-            "px-2 sm:px-4",
-            isScrolled && "shadow-lg"
+            "w-full transition-all duration-300",
+            "bg-background/90 backdrop-blur-md",
+            "border-b border-foreground/10",
+            "px-4 sm:px-8",
+            isScrolled && "shadow-lg bg-background"
           )}
         >
-          <div className="flex items-center justify-between h-14">
+          <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <Link href="/" className="flex-shrink-0 flex items-center gap-2">
               <Image
@@ -51,26 +51,26 @@ export default function Header() {
                 className="h-9 w-9 rounded-sm object-cover flex-shrink-0"
                 priority
               />
-              <span className="hidden sm:block font-bold text-sm text-gray-800 leading-tight max-w-[160px]">
+              <span className="hidden sm:block font-semibold text-xs uppercase tracking-[0.12em] text-foreground leading-tight max-w-[190px]">
                 Shalom Gates of Praise Ministries
               </span>
             </Link>
 
             {/* Desktop Navigation */}
-            <nav className="hidden md:flex items-center gap-8">
+            <nav className="hidden md:flex items-center gap-7">
               {headerConfig.navItems.map((item) => (
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
+                  className="text-[11px] font-bold uppercase tracking-[0.14em] text-foreground/70 hover:text-foreground transition-colors"
                 >
                   {item.name}
                 </Link>
               ))}
               <Button
-                className="bg-darkMossGreen hover:bg-pakistanGreen text-white rounded-full px-6"
+                className="bg-foreground hover:bg-darkMossGreen text-background rounded-none px-5 text-[11px] uppercase tracking-[0.12em]"
               >
-                Contact Us
+                <Link href="/contact">Contact Us</Link>
               </Button>
             </nav>
 
@@ -107,7 +107,7 @@ export default function Header() {
                     height={36}
                     className="h-9 w-9 rounded-sm object-cover"
                   />
-                  <span className="font-bold text-sm text-gray-800 leading-tight">
+                  <span className="font-semibold text-xs uppercase tracking-[0.12em] text-foreground leading-tight">
                     Shalom Gates of Praise Ministries
                   </span>
                 </Link>
@@ -126,12 +126,14 @@ export default function Header() {
                     key={item.name}
                     href={item.href}
                     onClick={() => setIsMobileMenuOpen(false)}
-                    className="block py-2 text-base sm:text-lg font-medium text-gray-600 hover:text-gray-900 transition-colors"
+                    className="block border-b border-foreground/10 py-4 text-2xl font-semibold text-foreground hover:text-darkMossGreen transition-colors"
                   >
                     {item.name}
                   </Link>
                 ))}
-                <Button className="w-full mt-4 bg-darkMossGreen hover:bg-pakistanGreen text-white rounded-full">Contact Us</Button>
+                <Button asChild className="w-full mt-4 bg-foreground hover:bg-darkMossGreen text-background rounded-none uppercase tracking-[0.12em]">
+                  <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>Contact Us</Link>
+                </Button>
               </nav>
             </div>
           </motion.div>

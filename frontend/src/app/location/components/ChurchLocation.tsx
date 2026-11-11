@@ -54,7 +54,7 @@ export default function ChurchLocation() {
       </div>
 
       {/* Content Section */}
-      <section className="container mx-auto px-4 py-16">
+      <section className="container mx-auto px-4 py-24 md:py-32">
         <div className="grid md:grid-cols-2 gap-8 items-start">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

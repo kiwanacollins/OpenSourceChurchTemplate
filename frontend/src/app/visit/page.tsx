@@ -9,7 +9,7 @@ export default function VisitPage() {
         description="Join our church family in Entebbe – Magala, Uganda"
         backgroundImage="/assets/images/visit-hero.jpg"
       />
-      <section className="py-16 px-4 sm:px-6 lg:px-8">
+      <section className="py-24 md:py-32 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto" >
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
